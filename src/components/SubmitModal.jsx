@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Sendmodal({setCloseModal }) {
+function SubmitModal({setCloseModal}) {
   return (
     <div  className="fixed inset-0 bg-gray-300  z-[9999] bg-opacity-50 flex justify-center items-center">
       <div data-aos="fade-up" className="bg-white p-6 rounded-lg shadow-lg w-96 text-center">
@@ -13,8 +13,8 @@ function Sendmodal({setCloseModal }) {
           Yopish
         </button>
       </div>
-    </div>
+    </div> 
   )
 }
 
-export default Sendmodal
+export default SubmitModal

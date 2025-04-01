@@ -17,7 +17,7 @@ import Popular from './components/Popular'
 import Services from './components/Services'
 import Thegoal from './components/Thegoal'
 import Vidio from './components/Vidio'
-import Sendmodal from './components/sendmodal';
+import SubmitModal from './components/SubmitModal';
 
 
 function App() {
@@ -41,7 +41,7 @@ function App() {
      <Navbar/>
      <main>
         <Banner setCloseModal={setCloseModal}/>
-        {isOpenModal && <Sendmodal setCloseModal={setCloseModal}/>}
+        {isOpenModal && <SubmitModal setCloseModal={setCloseModal}/>}
         <Popular/>
         <Thegoal/>
         <Discover/>
@@ -58,3 +58,5 @@ function App() {
 }
 
 export default App
+
+
