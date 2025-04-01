@@ -52,6 +52,7 @@ function Navbar() {
         </div>
         {/* mobile menu */}
         <ul className={`block bg-white lg:hidden absolute w-full lg:w-[60%] 
+          z-[9999]
           left-[50%] top-30 
           translate-x-[-50%] text-center
           transition-all duration-500 
