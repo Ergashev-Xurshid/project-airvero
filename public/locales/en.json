@@ -1,0 +1,198 @@
+{
+  "_navbar-links":"_commit",
+  "nav-links":{
+    "home":"Home",
+    "about":"About",
+    "types":"Tours",
+    "contact":"Contact Us"    
+  },
+
+
+  "_banner":"_commit",
+  "banner-title":"ARE YOU LOOKING TO TRAVEL?",
+  "banner-sub-title":"Make your travel dreams a reality: plan, explore and create unforgettable memories.",
+  "banner-btn":"Discover More",
+
+
+  "_popular":"_commit",
+  "popular-sub-title":"Our Popular Destinations",
+  "popular-title":"Discover the beauty, culture, and experiences that make these destinations truly special.",
+  "popular-cards":{
+    "Istanbul":"Istanbul",
+    "Sharm-El-Sheykh":"Шарм-эль-Шейх",
+    "Thailand":"Таиланд",
+    "Argentina":"Аргентина",
+    "Dubai":"Дубай",
+    "Saudi":"Саудовская Аравия"
+  },
+  "Booked":"booked",
+
+
+  "_theGoal":"_commit",
+  "goal-title":"Explore destinations easily",
+  "goal-card-1":{
+    "title-1":"Cheap Railway Tickets With Us",
+    "sub-title-1":"Whole world",
+    "text-1":"Embark on a railway adventure and explore destinations worldwide. Whether it's the picturesque landscapes, bustling cities, or cultural gems, our rail services offer a unique and comfortable way to traverse the globe. Immerse yourself in the beauty of different cultures, all accessible through our extensive railway network. ."
+  },
+  "goal-card-2":{
+    "title-2":"Discover Exciting Air Travel Deals",
+    "sub-title-2":"Global Destinations",
+    "text-2":"Embark on an airborne adventure and explore destinations worldwide. Whether it's the breathtaking landscapes, vibrant cities, or cultural treasures, our airline services provide a convenient and exhilarating way to navigate the globe. Immerse yourself in the richness of diverse cultures, all easily accessible through our extensive air travel network. ."
+  },
+  "goal-card-3":{
+    "title-3":"Dubai",
+    "sub-title-3":"United Arab Emirates",
+    "text-3":"Dubai is a city and emirate in the United Arab Emirates, known for its luxury shopping, cutting-edge architecture, and vibrant nightlife. The Burj Khalifa, an 830-meter-tall tower, dominates the city's skyscrapers. At its base is the Dubai Fountain, whose jets and lights are adjusted to music. On artificial islands in the sea is the Atlantis, Palm, hotel, with a water park and a marine animal park."
+  },
+  "goal-card-4":{
+    "title-4":"Antalya",
+    "sub-title-4":"Türkiye",
+    "text-4":"Antalya is the fastest growing city in Turkey, and tourists from all over the world are discovering its fantastic combination of gorgeous beaches and traditional Turkish culture. Children will love the Beach Park, home to Aqualand (a rollercoaster lover's dream) and the Dolphinarium (home to dolphins, sea lions and white whales). Be sure to explore the old city center and see Hadrian's Gate."
+  },
+  "goal-card-5":{
+    "title-5":"Sharm El Sheikh",
+    "sub-title-5":"Egypt",
+    "text-5":"Sharm El Sheikh is the hub of tourism on the Sinai Peninsula and home to some of the best diving in the world. Especially the underwater wonders of Ras Mohammed National Park, which have taken Sharm to a whole new level. The city has dive sites and shipwrecks that attract advanced and amateur divers from all over the world to discover the unique marine life in the depths of the Red Sea."
+  },
+  "goal-card-6":{
+    "title-6":"Istanbul",
+    "sub-title-6":"Türkiye",
+    "text-6":"Istanbul is the most populous city in Turkey and its cultural, economic and historical center. Situated in the northwestern part of Turkey, divided by the Bosphorus into European and Asian sides, which connects the Sea of ​​Marmara and the Black Sea. This city is the only one in the world that is located on two continents.-1"
+  },
+
+
+  "_discover":"_commit",
+  "discover-sub-title":"Explore Our Destinations",
+  "discover-title":"Discover Dubai, Turkey, and Sharm El Sheikh",
+  "discover-card-1":{
+    "title":"Experience Luxury in Dubai",
+    "sub-title":"Cityscape and Beyond",
+    "text":"Indulge in the opulence of Dubai's skyscrapers, luxury shopping, and desert adventures. Explore a city where tradition meets modernity, offering an extraordinary blend of culture and extravagance."
+  },
+  "discover-card-2":{
+    "title":"Discover the Rich Culture of Turkey",
+    "sub-title":"Historical Wonders and Breathtaking Landscapes",
+    "text":"Immerse yourself in Turkey's captivating history, from ancient ruins to vibrant markets. Enjoy the scenic landscapes, delicious cuisine, and warm hospitality that make Turkey a must-visit destination."
+  },
+  "discover-card-3":{
+    "title":"Relax in Sharm El Sheikh's Paradise",
+    "sub-title":"Sun, Sea, and Serenity",
+    "text":"Escape to the stunning beaches and coral reefs of Sharm El Sheikh. Dive into the crystal-clear waters, unwind in luxurious resorts, and experience the ultimate relaxation in this tropical paradise."
+  },
+  "d-btn-1":"Learn More",
+  "d-btn-2":"Book Now",
+
+
+  
+  "_services":"_commit",
+  "services-sub-title":"Our Services",
+  "services-title":"Explore with Confidence",
+  "services-card-1":{
+    "title":"Curated Travel Experiences",
+    "text":"Discover meticulously designed travel itineraries, ensuring high-quality experiences tailored to your preferences. Our expertly crafted packages guarantee unforgettable adventures."
+  },
+  "services-card-2":{
+    "title":"Personalized Itineraries",
+    "text":"Enjoy fully customizable travel plans that cater to your unique interests and desires. We specialize in creating journeys that reflect your individual preferences and travel aspirations."
+  },
+  "services-card-3":{
+    "title":"Expertly Crafted Travel Packages",
+    "text":"Our packages provide a seamless blend of comfort, adventure, and cultural immersion, ensuring an exceptional travel experience."
+  },
+
+
+  "_plan": "_commit",
+  "plan-title": "Plan Your Dream Getaway",
+  "plan-text": "Let us take care of every detail as you embark on your dream journey. Whether it's a cultural escape, an adventurous expedition, or a relaxing beach retreat, we ensure a hassle-free and unforgettable travel experience.",
+  "plan-item-1": {
+    "title": "Expert Guidance",
+    "text":"Receive guidance from our travel experts who are passionate about creating the perfect itinerary for you. From destination suggestions to travel tips, we are here to make your journey extraordinary."
+  },
+  "plan-item-2": {
+    "title": "Customizable Options",
+    "text":"Tailor your travel experience with customizable options, ensuring every aspect of your journey aligns with your preferences. Choose accommodations, activities, and more to suit your unique style."
+  },
+  "plan-item-3": {
+    "title": "24/7 Support",
+    "text":"Experience peace of mind with our 24/7 customer support. Whether you have questions during the planning process or need assistance while traveling, our team is always here to support you."
+  },
+  "plan-btn":"Start Planning",
+
+
+  "_offer": "_commit",
+  "offer-sub-title": "Exclusive Offers",
+  "offer-title": "Unlock Your Dream Vacation",
+  "offer-card-1": {
+    "type":"Essential Explorer",
+    "title": "Contact us",
+    "sub-title":"/customized",
+    "offer-links":{
+      "link-1":"Tailored Itinerary Planning",
+      "link-2":"Personalized Destination Recommendations",
+      "link-3":"Expert Travel Consultation",
+      "link-4":"24/7 Dedicated Support",
+      "link-5":"Flexible Pricing"
+    }
+  },
+  "offer-card-2": {
+    "type":"Premium Voyager",
+    "title": "Contact us",
+    "sub-title":"/customized",
+    "offer-links":{
+      "link-1":"Luxury Accommodations",
+      "link-2":"Exclusive Experiences",
+      "link-3":"Private Guided Tours",
+      "link-4":"Customized Travel Packages",
+      "link-5":"Negotiable Pricing"
+    }
+  },
+  "offer-card-3": {
+    "type":"Ultimate Wanderer",
+    "title": "Contact us",
+    "sub-title":"/customized",
+    "offer-links":{
+      "link-1":"VIP Travel Concierge",
+      "link-2":"Bespoke Luxury Experiences",
+      "link-3":"Exclusive Access to Events",
+      "link-4":"Flexible and Negotiable Prices",
+      "link-5":"Lifetime Travel Membership"
+    }
+  },
+
+  "offer-btn":"Get a Quote",
+
+
+  "_contact": "_commit",
+  "contact-sub-title": "Make a reservation with us",
+  "contact-title": "Plan Your Journey with Us",
+  "contact-author":"Director: Nilufar Sadikova",
+
+
+  "_footer":"_footer",
+  "f-logo-text":"Explore the world with Propartnyor JS, your trusted partner in creating unforgettable journeys. We believe in delivering exceptional travel experiences that go beyond expectations.",
+  "f-link":"Useful Links",
+  "f-info-title":"Contact Information",
+  "f-info-text":"Ready to embark on your next adventure? Contact us for personalized travel assistance and inquiries.",
+
+
+  "_modal":"modal",
+  "modal-form-subTitle":"Book your reservation now",
+  "modal-form-title":"Let's Plan Your Next Adventure",
+  "modal-content-subTitle":"Connect With Us",
+  "modal-content-title":"Your Travel Partner",
+  "modal-content-text":"Plan your dream vacation with us. Our team is ready to assist you in creating memorable travel experiences.",
+  "modal-ul-items-phone":"Phone:",
+  "modal-ul-items-email":"Email",
+  "modal-ul-items-location":"Address",
+  "Address":"Shaykhontohur district, Jangoh avenue, 1nd floor, house 37, Tashkent city",
+
+  "btn1":"Make a reservation",
+  "btn2":"Discover More",
+  "placeholderText":"Your name...",
+  "placeholderLocation":"Type location...",
+  "placeholderEmail":"Your email...",
+  "placeholderPhone":"Your phone...",
+  "placeholderTextAria":"Tell us about your travel plans..."
+
+}

@@ -1,0 +1,177 @@
+{
+  "_navbar-links": "_commit",
+  "nav-links": {
+    "home": "Asosiy sahifa",
+    "about": "Biz haqimizda",
+    "types": "Turlar",
+    "contact": "Kontaktlar"
+  },
+  "_banner": "_commit",
+  "banner-title": "Sayohat qilishni xohlaysizmi?",
+  "banner-sub-title": "Sayohat orzularingizni haqiqatga aylantiring: rejalashtiring, kashf qiling va unutilmas xotiralar yarating.",
+  "banner-btn": "Ko'proq bilish",
+  "_popular": "_commit",
+  "popular-sub-title": "Bizning mashhur manzillarimiz",
+  "popular-title": "Ushbu yo'nalishlar bilan haqiqatan ham o'ziga xos qiladigan go'zallik, madaniyat va tajribalarni kashf eting.",
+  "popular-cards": {
+    "Istanbul": "Istanbul",
+    "Sharm-El-Sheykh": "Sharm El-Sheykh",
+    "Thailand": "Tailand",
+    "Argentina": "Argentina",
+    "Dubai": "Dubai",
+    "Saudi": "Saudiya Arabistoni"
+  },
+  "Booked": "band qilingan",
+  "_theGoal": "_commit",
+  "goal-title": "Maqsadlarni osongina o'rganing",
+  "goal-card-1": {
+    "title-1": "Biz bilan arzon temir yo'l chiptalari",
+    "sub-title-1": "Butun dunyo",
+    "text-1": "Temir yo'l sarguzashtiga kiring va kashf qiling dunyo bo'ylab yo'nalishlar. Bu go'zal bo'ladimi landshaftlar, gavjum shaharlar yoki madaniy toshlar, bizning temir yo'l xizmatlari noyob va qulay yo'lni taklif qiladi yer sharini aylanib o'tish. Go'zallikka sho'ng'ing turli madaniyatlar, barcha bizning orqali kirish mumkin keng temir yo'l tarmog'i."
+  },
+  "goal-card-2": {
+    "title-2": "Havo sayohatlari uchun qiziqarli takliflar",
+    "sub-title-2": "Global manzillar",
+    "text-2": "Havodagi sarguzashtga boring va kashf qiling dunyo bo'ylab yo'nalishlar. Bu bo'ladimi hayajonli landshaftlar,  madaniy xazinalar, bizning aviakompaniya xizmatlari qulaylikni ta'minlaydi va dunyo bo'ylab sayohat qilishning ajoyib usuli. Suvga cho'mish o'zingizni turli madaniyatlar boyligida, barcha bizning keng qamrovli havo sayohatimiz orqali osongina kirish mumkin tarmoq."
+  },
+  "goal-card-3": {
+    "title-3": "Dubay",
+    "sub-title-3": "Birlashgan Arab Amirliklari",
+    "text-3": "Dubay — Birlashgan Arabistondagi shahar va amirlik Hashamatli xaridlari bilan mashhur Emirates zamonaviy arxitektura va jonli tungi hayot. 830 metr balandlikdagi Burj Xalifa minorasi hukmronlik qiladi shaharning osmono'par binolari. Uning bazasida Dubay joylashgan Jetlari va chiroqlari moslashtirilgan favvora musiqa. Dengizdagi sun'iy orollarda Atlantis, Palm, mehmonxona, suv parki va a dengiz hayvonlari parki."
+  },
+  "goal-card-4": {
+    "title-4": "Antalya",
+    "sub-title-4": "Turkiya",
+    "text-4": "Antaliya Turkiyaning eng tez rivojlanayotgan shahri va Butun dunyodan sayyohlar uni kashf qilmoqdalar ajoyib plyajlarning ajoyib kombinatsiyasi va an'anaviy turk madaniyati. Bolalar yaxshi ko'radilar Beach Park, Aqualand uyi (rollercoaster sevgilining orzusi) va Delfinarium (uy delfinlar, dengiz sherlari va oq kitlar). Ishonch hosil qiling eski shahar markazini o'rganing va Hadrian darvozasini ko'ring."
+  },
+  "goal-card-5": {
+    "title-5": "Sharm al-Shayx",
+    "sub-title-5": "Misr",
+    "text-5": "Sharm al-Shayx - Sinaydagi turizm markazi Yarim orol va eng yaxshi sho'ng'in uchun uy dunyo. Ayniqsa, Rasning suv osti mo''jizalari Sharmni olib ketgan Muhammad milliy bog'i butunlay yangi daraja. Shaharda sho'ng'in joylari va ilg'or va havaskor g'avvoslarni jalb qiladigan kema halokatlari noyob kashf qilish uchun butun dunyodan Qizil dengiz tubidagi dengiz hayoti."
+  },
+  "goal-card-6": {
+    "title-6": "Istanbul",
+    "sub-title-6": "Turkiya",
+    "text-6": "Istanbul Turkiya va uning aholisi eng gavjum shahar madaniy, iqtisodiy va tarixiy markaz. Joylashgan tomonidan boʻlingan Turkiyaning shimoli-gʻarbiy qismida Bosfor boʻgʻozi Yevropa va Osiyo tomonlariga, qaysi Marmara va Qora dengizni bog'laydi. Bu shahar dunyodagi yagona shahar ikki qit'ada joylashgan."
+  },
+  "_discover": "_commit",
+  "discover-sub-title": "Bizning manzillarimizni kashf eting",
+  "discover-title": "Dubay, Turkiya, Sharm El Sheyhni biz bilan kashf eting",
+  "discover-card-1": {
+    "title": "Dubayda hashamatni his eting",
+    "sub-title": "Shahar va sahro uyg'unligi",
+    "text": "Dubayning osmono'par binolari, hashamatli xaridlari va cho'l sarguzashtlarining boyligidan zavqlaning. Madaniyat va isrofgarchilikning ajoyib uyg'unligini taklif qiluvchi an'analar zamonaviylikka mos keladigan shaharni o'rganing."
+  },
+  "discover-card-2": {
+    "title": "Turkiya madaniyatini kashf eting",
+    "sub-title": "Tarixiy mo'jizalar va hayratlanarli manzaralar",
+    "text": "Turkiyaning qadimiy xarobalardan tortib jonli bozorlarigacha bo'lgan jozibali tarixiga sho'ng'ing. Turkiyani ziyorat qilish kerak bo'lgan manzilga aylantiradigan go'zal manzaralar, mazali taomlar va samimiy mehmondo'stlikdan rohatlaning."
+  },
+  "discover-card-3": {
+    "title": "Sharm El-Sheykhda dam oling",
+    "sub-title": "Quyosh, dengiz va osoyishtalik",
+    "text": "Sharm al-Shayxning ajoyib plyajlari va marjon riflariga boring. Tiniq suvlarga sho'ng'ing, hashamatli dam olish maskanlarida dam oling va ushbu tropik jannatda eng yaxshi dam olishni his qiling."
+  },
+  "d-btn-1": "Ko'roq bilish",
+  "d-btn-2": "Band Qilish",
+  "_services": "_commit",
+  "services-sub-title": "Bizning xizmatlar",
+  "services-title": "Ishonch bilan kashf eting",
+  "services-card-1": {
+    "title": "Sayohat tajribalari",
+    "text": "Sizning xohishingizga moslashtirilgan yuqori sifatli tajribalarni ta'minlab, puxta ishlab chiqilgan sayohat marshrutlarini kashf eting. Mutaxassislar tomonidan tayyorlangan paketlarimiz unutilmas sarguzashtlarni kafolatlaydi."
+  },
+  "services-card-2": {
+    "title": "Eng yaxshi marshrutlar",
+    "text": "Sizning noyob qiziqishlaringiz va istaklaringizga mos keladigan to'liq moslashtirilgan sayohat rejalaridan rohatlaning. Biz sizning shaxsiy imtiyozlaringiz va sayohat intilishlaringizni aks ettiruvchi sayohatlarni yaratishga ixtisoslashganmiz."
+  },
+  "services-card-3": {
+    "title": "Tayyor sayohat yo'nalishlari",
+    "text": "Bizning paketlarimiz qulaylik, sarguzasht va madaniy suvga cho'milishning uzluksiz uyg'unligini ta'minlaydi va ajoyib sayohat tajribasini ta'minlaydi.."
+  },
+  "_plan": "_commit",
+  "plan-title": "Orzuyingdagi sayohatni rejalashtiring",
+  "plan-text": "O'zingizning orzuingizdagi sayohatga chiqayotganingizda, har bir tafsilotga e'tibor qaratamiz. Bu madaniy qochish, sarguzashtli ekspeditsiya yoki sohilda dam olish bo'ladimi, biz muammosiz va unutilmas sayohat tajribasini ta'minlaymiz",
+  "plan-item-1": {
+    "title": "Tajribali gidlar xizmati",
+    "text": "Siz uchun mukammal marshrutni yaratishga ishtiyoqli sayohat bo'yicha mutaxassislarimizdan ko'rsatmalar oling. Manzil takliflaridan tortib sayohat maslahatlarigacha sayohatingizni ajoyib qilish uchun shu yerdamiz"
+  },
+  "plan-item-2": {
+    "title": "Moslashuvchan xizmatlar",
+    "text": "Sayohat tajribangizni moslashtirilgan variantlar bilan moslang, sayohatingizning har bir jihati sizning afzalliklaringizga mos kelishini ta'minlang. Noyob uslubingizga mos keladigan turar joy, tadbirlar va boshqalarni tanlang."
+  },
+  "plan-item-3": {
+    "title": "24/7 Qo'llab quvvatlash",
+    "text": "24/7 mijozlarni qo'llab-quvvatlash xizmati bilan xotirjamlikni his qiling. Rejalashtirish jarayonida savollaringiz bo'ladimi yoki sayohat paytida yordam kerakmi, bizning jamoamiz sizni qo'llab-quvvatlash uchun doimo shu yerda. "
+  },
+  "plan-btn": "Bo'g'lanish",
+  "_offer": "_commit",
+  "offer-sub-title": "Maxsus Takliflar",
+  "offer-title": "O'zingiz orzu qilgan ta'tilni tanlang",
+  "offer-card-1": {
+    "type": "Asosiy Sayohatchi",
+    "title": "Biz bilan bog'laning",
+    "sub-title": "/individual",
+    "offer-links": {
+      "link-1": "Moslashtirilgan Sayohat Rejasi",
+      "link-2": "Shakllantirilgan Manzil Qo'llanmalar",
+      "link-3": "Mutaxassis Bilan Sayohat Muhokamasi",
+      "link-4": "24 / 7 Xizmat Ko'rsatish",
+      "link-5": "Moslashuvchan Narxlar"
+    }
+  },
+  "offer-card-2": {
+    "type": "Premium Sayohatchi",
+    "title": "Biz bilan bog'laning",
+    "sub-title": "/individual",
+    "offer-links": {
+      "link-1": "Luks Mekhmonxona Joylashuvi",
+      "link-2": "Maxsus Tajribalar",
+      "link-3": "Maxsus Yo'lboshlovchi",
+      "link-4": "Moslashtirilgan Sayohat Paketlari",
+      "link-5": "Muzokaralar uchun Narxlar"
+    }
+  },
+  "offer-card-3": {
+    "type": "Maksimal Sayohatchi",
+    "title": "Biz bilan bog'laning",
+    "sub-title": "/individual",
+    "offer-links": {
+      "link-1": "VIP Sayohat Dasturi",
+      "link-2": "Maxsus Lyuks Tajribalar",
+      "link-3": "Moslashuvchan va Muzokaralar uchun Narxlar",
+      "link-4": "Ajoyib Taassurotlar"
+    }
+  },
+  "offer-btn": "Bo'g'lanish",
+  "_contact": "_commit",
+  "contact-sub-title": "Maxsus Takliflar",
+  "contact-title": "O'zingiz orzu qilgan ta'tilni tanlang",
+  "contact-author": "Direktor: Nilufar Sadikova",
+  "_footer": "_footer",
+  "f-logo-text": "Biz bilan dunyoni zabt eting. Sayohat tashkil qilishda eng yaxshi hamkoringiz",
+  "f-link": "Foydali Havolalar",
+  "f-info-title": "Aloqa Ma'lumoti",
+  "f-info-text": "Ready to embark on your next adventure? Contact us for personalized travel assistance and inquiries.",
+  "_modal": "_commit",
+  "modal-form-subTitle": "Joy Band Qilish",
+  "modal-form-title": "Keling, keyingi sayohatingizni rejalashtiramiz",
+  "modal-content-subTitle": "Biz bilan bog'laning",
+  "modal-content-title": "Sizning sayohatdagi hamrohingiz",
+  "modal-content-text": "Dam olish uchun sayohatni biz bilan rejalashtiring. Bizning jamoa sizga yordam berishga tayyor.",
+  "modal-ul-items-phone": "Telefon :",
+  "modal-ul-items-email": "Email",
+  "modal-ul-items-location": "Manzil:",
+  "Address": "Shayxontohur tumani, Jangoh mavzesi, 1-etaj 37-xonadon, Toshkent shahri",
+  
+  
+  "_btns": "_commit",
+  "btn1": "Joy Band Qilish",
+  "btn2": "Bo'g'lanish",
+
+  "placeholderText": "Ismingiz...",
+  "placeholderLocation": "Manzilingiz...",
+  "placeholderEmail": "Email manzilingiz...",
+  "placeholderPhone": "Telefon raqamingiz...",
+  "placeholderTextAria": "Sayohat rejalaringiz haqida ayting..."
+}
