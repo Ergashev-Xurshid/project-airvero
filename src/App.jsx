@@ -17,6 +17,7 @@ import Popular from './components/Popular'
 import Services from './components/Services'
 import Thegoal from './components/Thegoal'
 import Vidio from './components/Vidio'
+import Sendmodal from './components/sendmodal';
 
 
 function App() {
@@ -32,20 +33,24 @@ function App() {
 
   // opne modal 
   const [isOpen , setIsOpen]=useState(false)
+
+  //submit modal
+  const [isOpenModal , setCloseModal]=useState(false)
   return (
     <>
      <Navbar/>
      <main>
-        <Banner/>
+        <Banner setCloseModal={setCloseModal}/>
+        {isOpenModal && <Sendmodal setCloseModal={setCloseModal}/>}
         <Popular/>
         <Thegoal/>
         <Discover/>
         <Services/>
-        <Plan/>
+        <Plan setIsOpen={setIsOpen}/>
         <Vidio/>
-        <Offer/>
+        <Offer setIsOpen={setIsOpen}/>
         <Contact setIsOpen={setIsOpen}/>
-        {isOpen && <Modal setIsOpen={setIsOpen}/>}
+        {isOpen && <Modal setIsOpen={setIsOpen} setCloseModal={setCloseModal}/>}
      </main>
      <Footer/>
     </>

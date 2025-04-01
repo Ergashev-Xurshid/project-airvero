@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Btn from './Btn'
 import { useTranslation } from 'react-i18next'
-function Banner() {
+function Banner({setCloseModal}) {
   const { t } = useTranslation()
 
   const [formData, setFormData] = useState({
@@ -36,7 +36,7 @@ function Banner() {
       });
 
       if (response.ok) {
-        alert("Biz tez orada siz bilan bog'lanamiz, rahmat!");
+        setCloseModal(true)
         setFormData({ name: "", location: "", date: new Date().toISOString().split("T")[0] });
       }
     } catch (error) {
@@ -46,18 +46,19 @@ function Banner() {
 
 
   return (
-    <section id='home' className='w-[100%] h-[100%] banner-img'>
-      <div className='w-full px-[25px]  flex flex-col items-center'>
-        <div className='flex flex-col  max-sm:w-full w-[80%] xl:w-[60%]'>
-          <div className='py-[200px]'>
+    <section id='home' className='w-[100%] h-[100%]  banner-img'>
+      <div className='relative w-full px-[25px] h-full  flex flex-col items-center'>
+      <div className="absolute h-full w-full bg-black opacity-[0.3]"></div>
+        <div className='flex flex-col   max-sm:w-full w-[80%] xl:w-[60%]'>
+          <div data-aos="fade-up" className='py-[180px]'>
             <div className='w-[80px] h-[3px] bg-[#e1ac0c]'></div>
-            <h1 className='my-5 text-[42px] text-white break-words tracking-[0.5px]'>{t("banner-title")}</h1>
+            <h1 className='my-5 text-[42px] text-white break-words font-bold  tracking-[0.5px]'>{t("banner-title")}</h1>
             <p className=' text-white text-[22px] tracking-[0.5px]'>{t("banner-sub-title")}</p>
             <a href="#popular">
             <Btn text={t("banner-btn")} style={"mr-auto mt-[30px] text-[15px]"} />
             </a>
           </div>
-          <form onSubmit={handleSubmit} className='p-[10px] flex flex-col lg:flex-row items-center justify-between  bg-white border-b-5 border-[#e1ac0c] '>
+          <form onSubmit={handleSubmit} className='z-[99] p-[10px] flex flex-col lg:flex-row items-center justify-between  bg-white border-b-5 border-[#e1ac0c] '>
             <fieldset className='w-full lg:flex-1'>
               <input
                 required

@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Btn from './Btn'
 import { IoClose } from "react-icons/io5";
 import { useTranslation } from 'react-i18next';
-function Modal({ setIsOpen }) {
+function Modal({ setIsOpen ,setCloseModal }) {
   const { t } = useTranslation()
 
   const [formData, setFormData] = useState({
@@ -38,13 +38,13 @@ function Modal({ setIsOpen }) {
       });
 
       if (response.ok) {
-        alert("Biz tez orada siz bilan bog'lanamiz, rahmat!");
         setFormData({
           name: "",
           textarya: "",
           number: "",
           email: ""
         });
+        setCloseModal(true)
         setIsOpen(false)
       }
     } catch (error) {
@@ -54,9 +54,9 @@ function Modal({ setIsOpen }) {
 
 
   return (
-    <div className='fixed overflow-y-auto  w-full h-100% bg-[#000000a6] py-[10%] bottom-0 left-0 right-0 top-0'>
+    <div className='fixed overflow-y-auto z-[9999]  w-full h-100% bg-[#000000a6] py-[10%] bottom-0 left-0 right-0 top-0'>
       <div data-aos="fade-up" className='relative w-[80%] lg:w-[60%] mx-auto shadow-lg rounded-lg bg-white '>
-        <div onClick={() => setIsOpen(false)} className='absolute right-1/2 lg:right-[-30px] translate-x-[50%] top-[-30px] w-[60px] h-[60px] z-[9999] bg-white rounded-full flex items-center justify-center cursor-pointer'><IoClose size="20px" color='#e1ac0c' /></div>
+        <div onClick={() => setIsOpen(false)} className='absolute right-1/2 lg:right-[-10px] translate-x-[50%] top-[-30px] w-[60px] h-[60px] z-[9999] bg-white rounded-full flex items-center justify-center cursor-pointer'><IoClose size="20px" color='#e1ac0c' /></div>
         <div className='flex lg:flex-row flex-col'>
           <div className='p-[30px] [w-55%]'>
             <div>

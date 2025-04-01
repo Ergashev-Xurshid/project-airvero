@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { close, en, logo, menu, ru, uz } from '../assets'
+import { close, logo, menu,  } from '../assets'
 import { useTranslation } from 'react-i18next'
 import { menuLinks } from '../utils/consttanta'
 
@@ -15,7 +15,7 @@ function Navbar() {
   }
 
   return (
-    <header className=' flex items-center justify-between  py-[10px] mx-[10px] sm:mx-auto w-full sm:max-w-[80%]'>
+    <header className=' flex items-center justify-between  py-[10px] mx-[10px] sm:mx-auto  sm:max-w-[80%]'>
       {/* logo */}
       <div className='flex flex-col items-center'>
         <img className='w-[100px] h-auto' src={logo} alt="logo" />
@@ -38,7 +38,7 @@ function Navbar() {
             </select>
           </li>
         </ul>
-        <div className='flex gap-5 lg:hidden '>
+        <div className='flex gap-5 lg:hidden px-3 '>
           {/*lng*/}
           <select className='font-semibold cursor-pointer' onChange={handleChange} value={laungageSelect}>
             <option className='font-semibold' value="uz">Uzb</option>

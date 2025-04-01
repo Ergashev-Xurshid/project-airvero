@@ -3,7 +3,7 @@ import { offerCard } from '../utils/consttanta'
 import Btn from './Btn'
 import { useTranslation } from 'react-i18next'
 
-function Offer() {
+function Offer({setIsOpen}) {
   const {t}=useTranslation()
   return (
     <div>
@@ -27,8 +27,8 @@ function Offer() {
                   </li>
                 </ul>
               ))}
-              <div className='pb-[40px] text-center'>
-                <Btn text={t("offer-btn")} />
+              <div onClick={()=>setIsOpen(true)} className='pb-[40px] text-center'>
+                <Btn  text={t("offer-btn")} />
               </div>
             </div>
           ))}

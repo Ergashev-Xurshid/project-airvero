@@ -3,7 +3,7 @@ import Btn from './Btn'
 import { planLi } from '../utils/consttanta'
 import { useTranslation } from 'react-i18next'
 
-function Plan() {
+function Plan({setIsOpen}) {
   const {t}=useTranslation()
   const [id, setId] = useState(0)
   return (
@@ -13,7 +13,9 @@ function Plan() {
         <div className='flex-1 px-[15px] mb-[60px]'>
           <h4 className='font-[600] text-[19px] text-[#232323]  mb-[5px]'>{t("plan-title")}</h4>
           <p className='leading-[24px] text-[13px] text-[#7a7a7a] ' >{t("plan-text")}</p>
-          <Btn text={t("plan-btn")} style={"mt-[25px]"} />
+          <div onClick={()=>setIsOpen(true)} >
+            <Btn text={t("plan-btn")} style={"mt-[25px]"} />
+          </div>
         </div>
         <div className='flex-1 px-[15px] '>
           <ul>
