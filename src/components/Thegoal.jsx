@@ -7,9 +7,9 @@ function Thegoal() {
   return (
     <div className='px-[15px] lg:px-[100px] xl:px-[200px] '>
       <h2 className='font-medium mt-[20px] mb-[10px] text-[30px]'>{t("goal-title")}</h2>
-      <div className='mt-[15px]'>
+      <div className='mt-[15px] flex flex-row flex-wrap justify-between'>
         {goalItems.map((item)=> (
-          <div key={item.id} className='flex max-md:flex-col flex-row pt-[30px]'>
+          <div key={item.id} className='flex max-md:flex-col flex-row pt-[30px] max-lg-w-full'>
             <div className='w-full md:w-[300px] h-[380px] md:h-[200px] rounded-3xl overflow-hidden mb-[20px]'>
               <img className='w-full h-full' src={item.image} alt={item.title} />
             </div>

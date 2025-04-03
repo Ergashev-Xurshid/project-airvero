@@ -71,7 +71,7 @@ function Modal({ setIsOpen ,setCloseModal }) {
                   name="name"
                   value={formData.name}
                   onChange={handleChange}
-                  className='px-[15px] text-[13px] text-[#aaa] bg-[#f4f4f4] border-1 border-[#eee] outline-none leading-[40px] h-[40px] w-full mb-[25px] '
+                  className='px-[15px] text-[13px] text-gray-600 bg-gray-100 border-1 border-[#eee] outline-none leading-[40px] h-[40px] w-full mb-[25px] '
                   type="text"
                   placeholder={t("placeholderText")}
                 />
@@ -83,7 +83,7 @@ function Modal({ setIsOpen ,setCloseModal }) {
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
-                  className='px-[15px] text-[13px] text-[#aaa] bg-[#f4f4f4] border-1 border-[#eee] outline-none leading-[40px] h-[40px] w-full mb-[25px] '
+                  className='px-[15px] text-[13px] text-gray-600 bg-gray-100 border-1 border-[#eee] outline-none leading-[40px] h-[40px] w-full mb-[25px] '
                   type="email"
                   placeholder={t("placeholderEmail")}
                 />
@@ -95,7 +95,7 @@ function Modal({ setIsOpen ,setCloseModal }) {
                   name="number"
                   value={formData.number}
                   onChange={handleChange}
-                  className=' px-[15px] text-[13px] text-[#aaa] bg-[#f4f4f4] border-1 border-[#eee] outline-none leading-[40px] h-[40px] w-full mb-[25px] '
+                  className=' px-[15px] text-[13px] text-gray-600 bg-gray-100 border-1 border-[#eee] outline-none leading-[40px] h-[40px] w-full mb-[25px] '
                   type="number"
                   placeholder={t("placeholderPhone")}
                 />
@@ -107,7 +107,7 @@ function Modal({ setIsOpen ,setCloseModal }) {
                   name="textarya"
                   value={formData.textarya}
                   onChange={handleChange}
-                  className='px-[15px] text-[13px] text-[#aaa] bg-[#f4f4f4] border-1 border-[#eee] outline-none leading-[40px] h-[160px] max-h-[180px] w-full max-w-full mb-[20px] '
+                  className='px-[15px] text-[13px] text-gray-600 bg-gray-100 border-1 border-[#eee] outline-none leading-[40px] h-[160px] max-h-[180px] w-full max-w-full mb-[20px] '
                   placeholder={t("placeholderTextAria")}
                 ></textarea>
               </fieldset>

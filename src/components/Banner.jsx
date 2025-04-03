@@ -66,7 +66,7 @@ function Banner({setCloseModal}) {
                 name="name"
                 value={formData.name}
                 onChange={handleChange}
-                className='p-[10px] max-lg:mb-[20px] max-lg:w-full text-[15px] bg-transparent text-[#9a9a9a] outline-hidden max-lg:border-b-1 lg:border-r-1 border-[#ddd]'
+                className='p-[10px] max-lg:mb-[20px] max-lg:w-full text-[15px] bg-transparent text-gray-500 outline-hidden max-lg:border-b-1 lg:border-r-1 border-[#ddd]'
                 type="text"
                 placeholder={t("placeholderText")} />
             </fieldset>
@@ -77,7 +77,7 @@ function Banner({setCloseModal}) {
                 name="location"
                 value={formData.location}
                 onChange={handleChange}
-                className='p-[10px] max-lg:mb-[20px] max-lg:w-full text-[15px] bg-transparent text-[#9a9a9a] outline-hidden max-lg:border-b-1 lg:border-r-1  border-[#ddd]'
+                className='p-[10px] max-lg:mb-[20px] max-lg:w-full text-[15px] bg-transparent text-gray-500 outline-hidden max-lg:border-b-1 lg:border-r-1  border-[#ddd]'
                 type="text"
                 placeholder={t("placeholderLocation")} />
             </fieldset>
@@ -86,7 +86,7 @@ function Banner({setCloseModal}) {
                 name="date"
                 value={formData.date}
                 onChange={handleChange}
-                className='py-[10px] pr-[30px] max-lg:mb-[20px] max-lg:w-full   text-[15px] bg-transparent text-[#9a9a9a] outline-hidden max-lg:border-b-1 lg:border-r-1   border-[#ddd] mr-[5px]'
+                className='py-[10px] pr-[30px] max-lg:mb-[20px] max-lg:w-full   text-[15px] bg-transparent text-gray-500 outline-hidden max-lg:border-b-1 lg:border-r-1   border-[#ddd] mr-[5px]'
                 type="date"
                 min="2025-03-17"
                 max="2099-12-31" />
