@@ -1,7 +1,8 @@
-import React, { useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import Btn from './Btn'
 import { IoClose } from "react-icons/io5";
 import { useTranslation } from 'react-i18next';
+import { refresh } from 'aos';
 function Modal({ setIsOpen ,setCloseModal }) {
   const { t } = useTranslation()
 
@@ -52,10 +53,26 @@ function Modal({ setIsOpen ,setCloseModal }) {
     }
   };
 
+  const modalRef = useRef(null)
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (modalRef.current && !modalRef.current.contains(event.target)) {
+        setIsOpen(false);
+      }
+    };
+  
+    document.addEventListener("mousedown", handleClickOutside);
+    
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [setIsOpen, setCloseModal]);
+  
 
   return (
-    <div className='fixed overflow-y-auto z-[9999]  w-full h-100% bg-[#000000a6] py-[10%] bottom-0 left-0 right-0 top-0'>
-      <div data-aos="fade-up" className='relative w-[80%] lg:w-[60%] mx-auto shadow-lg rounded-lg bg-white '>
+    <div className='fixed overflow-y-auto z-[9999]  w-full h-100% bg-[#000000a6] py-[50%] md:py-[20%] lg:py-[10%] bottom-0 left-0 right-0 top-0'>
+      <div data-aos="fade-up" ref={modalRef} className='relative w-[80%] lg:w-[60%] mx-auto shadow-lg rounded-lg bg-white '>
         <div onClick={() => setIsOpen(false)} className='absolute right-1/2 lg:right-[-10px] translate-x-[50%] top-[-30px] w-[60px] h-[60px] z-[9999] bg-white rounded-full flex items-center justify-center cursor-pointer'><IoClose size="20px" color='#e1ac0c' /></div>
         <div className='flex lg:flex-row flex-col'>
           <div className='p-[30px] [w-55%]'>
@@ -107,7 +124,7 @@ function Modal({ setIsOpen ,setCloseModal }) {
                   name="textarya"
                   value={formData.textarya}
                   onChange={handleChange}
-                  className='px-[15px] text-[13px] text-gray-600 bg-gray-100 border-1 border-[#eee] outline-none leading-[40px] h-[160px] max-h-[180px] w-full max-w-full mb-[20px] '
+                  className='resize-none px-[15px] text-[13px] text-gray-600 bg-gray-100 border-1 border-[#eee] outline-none leading-[40px] h-[160px] max-h-[180px] w-full max-w-full mb-[20px] '
                   placeholder={t("placeholderTextAria")}
                 ></textarea>
               </fieldset>

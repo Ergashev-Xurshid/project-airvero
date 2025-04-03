@@ -12,7 +12,7 @@ function Services() {
       </div>
       <div className='flex flex-wrap lg:flex-nowrap justify-center lg:justify-between items-start gap-[30px]'>
         {servicesCard.map((item) => (
-          <div key={item.id} className=' min-h-[380px] lg:min-h-[440px] flex flex-col w-full md:w-[45%] lg:w-[33%] bg-white border border-[#ddd] rounded-[10px] px-[30px] py-[50px]'>
+          <div key={item.id} className=' min-h-[380px] lg:min-h-[440px] 2xl:min-h-[300px] xl:min-h-[380px] flex flex-col w-full md:w-[45%] lg:w-[33%] bg-white border border-[#ddd] rounded-[10px] px-[30px] py-[50px]'>
             <div className='w-full flex justify-center'>
               <img src={item.image} alt={item.title} className='max-w-full' />
             </div>
