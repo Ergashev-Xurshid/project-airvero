@@ -38,7 +38,7 @@ function Navbar() {
         <a href="#home">
           <div className='flex flex-col items-center'>
             <img className='w-[100px] h-auto' src={logo} alt="logo" />
-            <h2 className='font-bold text-black text-lg  leading-4'>FLY MODERN</h2>
+            <h2 className='font-bold text-black text-lg  leading-4'>Airvero</h2>
             <h5 className='font-bold text-black text-[12px] '>AVIAKASSA VISA TOURISM</h5>
           </div>
         </a>

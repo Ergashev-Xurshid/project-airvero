@@ -4,9 +4,9 @@ import { initReactI18next } from 'react-i18next';
 import Backend from 'i18next-http-backend';
 import LanguageDetector from 'i18next-browser-languagedetector';
 
-import uzTranslation from "../public/locales/uz.json"
-import ruTranslation from "../public/locales/ru.json"
-import enTranslation from "../public/locales/en.json"
+import uzTranslation from "./locales/uz.json"
+import ruTranslation from "./locales/ru.json"
+import enTranslation from "./locales/en.json"
 
 const laungage = localStorage.getItem("i18nextLng") || "uz"
 
