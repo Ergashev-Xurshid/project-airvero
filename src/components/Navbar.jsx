@@ -22,20 +22,20 @@ function Navbar() {
         setToggle(false);
       }
     };
-  
+
     document.addEventListener("click", handleClickOutside);
-  
+
     return () => {
       document.removeEventListener("click", handleClickOutside);
     };
   }, []);
-  
+
 
   return (
-    <header  className='fixed top-0 left-0 w-full bg-white shadow-md z-[10000]'>
+    <header className='fixed top-0 left-0 w-full bg-white shadow-md z-[10000]'>
       <section className='flex items-center justify-between py-[10px] px-[10px] sm:px-20 sm:max-w-[100%] mx-auto'>
         {/* logo */}
-        <a href="#home">
+        <a href="/">
           <div className='flex flex-col items-center'>
             <img className='w-[100px] h-auto' src={logo} alt="logo" />
             <h2 className='font-bold text-black text-lg  leading-4'>Airvero</h2>
@@ -47,7 +47,12 @@ function Navbar() {
           <ul className='hidden lg:flex  items-center'>
             {menuLinks.map((item, i) => (
               <li className={`${menuLinks.length - 1 == i ? "mr-0" : "mr-[60px]"}`} key={i}>
-                <a className='font-[700] text-[17px] leading-[100px] text-[#121212] hover:text-[#e1ac0c] transition-all duration-500' href={`#${item.id}`}>{t(item.titleKey)}</a>
+                <a
+                  className='font-[700] text-[17px] leading-[100px] text-[#121212] hover:text-[#e1ac0c] transition-all duration-500'
+                  href={i === 0 ? "/" : `#${item.id}`}
+                >
+                  {t(item.titleKey)}
+                </a>
               </li>
             ))}
             <li className='ml-[60px] '>
@@ -71,7 +76,7 @@ function Navbar() {
             </div>
           </div>
           {/* mobile menu */}
-          <ul  className={`block bg-white lg:hidden absolute w-full lg:w-[60%] 
+          <ul className={`block bg-white lg:hidden absolute w-full lg:w-[60%] 
           z-[999]
           left-[50%] top-30 
           translate-x-[-50%] text-center

@@ -1,6 +1,6 @@
 // menu links
 export const menuLinks = [
-  { id: "home", titleKey: "nav-links.home" },
+  { id: "/", titleKey: "nav-links.home" },
   { id: "about", titleKey: "nav-links.about" },
   { id: "types", titleKey: "nav-links.types" },
   { id: "contact", titleKey: "nav-links.contact" },
