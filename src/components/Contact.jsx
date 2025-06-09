@@ -1,6 +1,7 @@
 import React from 'react'
 import Btn from './Btn'
 import { useTranslation } from 'react-i18next'
+import { Helmet } from 'react-helmet'
 
 function Contact({ setIsOpen }) {
   const { t } = useTranslation()
